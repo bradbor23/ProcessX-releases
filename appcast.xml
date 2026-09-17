@@ -1,6 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>ProcessX</title>
-  </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>ProcessX</title>
+        <item>
+            <title>0.2.0</title>
+            <pubDate>Wed, 16 Sep 2026 21:48:39 -0700</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/bradbor23/ProcessX-releases/releases/download/v0.2.0/ProcessX-0.2.0.zip" length="8571703" type="application/octet-stream" sparkle:edSignature="Uy29yqr3FWflf2v162fpviz2Ia6kl5ImsgSwQ3b3Z73o/CE+dBynZmiADlBqYkpSlMRpNoTQSSTadsjXnoy6BQ=="/>
+        </item>
+    </channel>
 </rss>
