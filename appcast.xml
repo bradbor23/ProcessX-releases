@@ -3,6 +3,14 @@
     <channel>
         <title>ProcessX</title>
         <item>
+            <title>0.2.3</title>
+            <pubDate>Mon, 21 Sep 2026 23:18:59 -0700</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/bradbor23/ProcessX-releases/releases/download/v0.2.3/ProcessX-0.2.3.zip" length="8695880" type="application/octet-stream" sparkle:edSignature="JHP/zk6p/zpe2hbteRecyT7HGvQluFQHsLkoS0R742GEnrJVmZD7k1mNUD1SdH5l9s21lG1/pvOcb2nRCvmtBw=="/>
+        </item>
+        <item>
             <title>0.2.2</title>
             <pubDate>Fri, 18 Sep 2026 15:05:47 -0700</pubDate>
             <sparkle:version>4</sparkle:version>
@@ -17,14 +25,6 @@
             <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/bradbor23/ProcessX-releases/releases/download/v0.2.1/ProcessX-0.2.1.zip" length="8655758" type="application/octet-stream" sparkle:edSignature="ZW9sd+47wi/bWVHq5OHPpTPsW/WqUFDd+B2y4N5fsdZNOiHqjYdRrCKPnMPDu7biNdRhC6KBjNVzZaGa4F8PCw=="/>
-        </item>
-        <item>
-            <title>0.2.0</title>
-            <pubDate>Wed, 16 Sep 2026 21:48:39 -0700</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/bradbor23/ProcessX-releases/releases/download/v0.2.0/ProcessX-0.2.0.zip" length="8571703" type="application/octet-stream" sparkle:edSignature="Uy29yqr3FWflf2v162fpviz2Ia6kl5ImsgSwQ3b3Z73o/CE+dBynZmiADlBqYkpSlMRpNoTQSSTadsjXnoy6BQ=="/>
         </item>
     </channel>
 </rss>
