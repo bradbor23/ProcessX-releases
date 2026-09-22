@@ -1,0 +1,62 @@
+name: Tester report
+description: Tell us how ProcessX behaved on your Mac
+title: "Tester report: "
+labels: ["tester report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for testing ProcessX. The steps are in [TESTING.md](https://github.com/bradbor23/ProcessX-releases/blob/main/TESTING.md).
+        Please don't paste anything you'd rather keep private — the log command in section 7 prints only ProcessX's own lines.
+  - type: input
+    id: mac
+    attributes:
+      label: Your Mac and macOS version
+      placeholder: MacBook Pro M3 Pro, macOS 27.0 — or MacBook Air, Intel, macOS 26.4
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: ProcessX version (ProcessX → About ProcessX)
+      placeholder: 0.2.2 (4)
+    validations:
+      required: true
+  - type: dropdown
+    id: helper
+    attributes:
+      label: Did the privileged helper work? (section 3)
+      description: After setting it up, do root processes such as kernel_task show real memory and disk figures?
+      options:
+        - Yes — root processes filled in
+        - It said On, but root processes still say "Access denied"
+        - It never reached On
+        - I didn't try it
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: How did each section go?
+      description: Worked, or what happened instead. Sections 1–6.
+      placeholder: |
+        1. Install and first launch —
+        2. The numbers are true —
+        3. Privileged helper —
+        4. Permissions and login —
+        5. Getting around —
+        6. Battery, temperature and stutter —
+    validations:
+      required: true
+  - type: textarea
+    id: annoyances
+    attributes:
+      label: The two most annoying things
+      description: Small annoyances count.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, if something went wrong (section 7)
+      render: text
