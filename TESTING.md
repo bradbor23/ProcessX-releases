@@ -104,7 +104,31 @@ sfltool dumpbtm | grep -A 12 -i processx
 
 Screenshots of anything odd help too.
 
-## 8. What to send back
+## 8. On an Intel Mac
+
+ProcessX runs on both kinds of Mac, but nobody has yet used it on an Intel one. Several readings come from Apple
+silicon-only sources, and those should say so rather than show a wrong number or a zero. If your Mac has an Intel
+processor, please check these.
+
+**Should work normally:** the process list and its CPU, memory, disk and network figures; the Performance page's CPU,
+memory, disk and network graphs; GPU totals; battery; startup items; services; users.
+
+**Should read "—" with an explanation when you hover:** CPU frequency (GHz) on the Performance page, per-process GPU
+on the Processes page, and chip temperature on Thermals.
+
+**Worth a close look:**
+1. **Details page → Architecture column.** Your own processes should read **Intel**, not "Apple silicon". Anything
+   running under Rosetta reads "Intel (Rosetta)" — on an Intel Mac there should be none.
+2. **Performance → CPU.** Right-click the graph → Change graph to → Logical processors. Intel Macs have one kind of
+   core, so there are no performance/efficiency labels; the grid should otherwise look right.
+3. **Performance → Thermals.** Fan speeds should be real. Chip temperature is expected to be "—" on Intel; tell us if
+   it shows a number, since that would mean we can read more than we thought.
+4. **Performance → NPU.** Intel Macs have no Neural Engine, so the tile should say so rather than graph zero.
+
+**Tell us:** which Intel Mac and macOS version, what each of the four above showed, and anything that reads as a
+number where you'd expect "—", which is the mistake we most want to avoid.
+
+## 9. What to send back
 
 - Mac model, chip (Apple silicon or Intel), macOS version, ProcessX version (ProcessX → About ProcessX).
 - For each section above: worked, or what happened instead.
